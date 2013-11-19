@@ -1,0 +1,14 @@
+sadhu_intro
+sadhu_tree_show
+cropplanting_rice
+sadhu_first
+sadhu_1_samples
+action_explore_forest_complete
+sadhu_2_forest
+sadhu_3b_start
+sadhu_3b_done
+sadhu_3_pandit
+action_explore_desert_complete
+sadhu_4_desert
+vishnuamulet
+sadhu_5b_start

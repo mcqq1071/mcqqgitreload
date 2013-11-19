@@ -1,0 +1,73 @@
+music:0.5
+sound:0.3028169
+invertYMouse:false
+mouseSensitivity:0.5
+fov:0.0
+gamma:1.0
+viewDistance:1
+guiScale:0
+particles:1
+bobView:false
+anaglyph3d:false
+advancedOpengl:false
+fpsLimit:0
+difficulty:0
+fancyGraphics:false
+ao:0
+clouds:false
+skin:Sphax PureBDcraft  32x MC16
+lastServer:
+lang:zh_CN
+chatVisibility:0
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+chatOpacity:1.0
+serverTextures:false
+snooperEnabled:true
+fullscreen:false
+enableVsync:false
+hideServerAddress:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
+showCape:true
+touchscreen:false
+overrideWidth:0
+overrideHeight:0
+heldItemTooltips:true
+chatHeightFocused:1.0
+chatHeightUnfocused:0.44366196
+chatScale:1.0
+chatWidth:1.0
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.drop:16
+key_key.inventory:18
+key_key.chat:20
+key_key.playerlist:15
+key_key.pickItem:-98
+key_key.command:53
+key_IC2 ALT Key:56
+key_IC2 Boost Key:29
+key_IC2 Mode Switch Key:50
+key_IC2 Side Inventory Key:46
+key_IC2 Hub Expand Key:45
+key_Clipboard:46
+key_Ender Pack:45
+key_Force Belt:44
+key_Force Key:33
+key_Force Belt Slot 1:79
+key_Force Belt Slot 2:80
+key_Force Belt Slot 3:81
+key_Force Belt Slot 4:75
+key_Force Belt Slot 5:76
+key_Force Belt Slot 6:77
+key_Force Belt Slot 7:71
+key_Force Belt Slot 8:72
+key_Reposition Mob Portrait:52

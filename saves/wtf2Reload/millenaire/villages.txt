@@ -1,0 +1,15 @@
+Chak Gharpur;311/64/398;indian_agricole;hindi;
+Devripur Sujauta;113/70/-194;indian_fort;hindi;
+Tiwaripur;943/68/363;indian_fort;hindi;
+Popol Vuh;299/75/1016;military;mayan;
+Xpujil;-70/72/1489;religious;mayan;
+Bhadehari Mahal;-997/71/1754;indian_palace;hindi;
+Bhadehari Gaanv;-974/66/1641;indian_agricole_hamlet;hindi;
+Bhadehari Qila;-869/73/1758;indian_fort_hamlet;hindi;
+Piparwar Mahal;-1438/71/1269;indian_palace;hindi;
+Piparwar Gaanv;-1343/64/1163;indian_agricole_hamlet;hindi;
+Piparwar Qila;-1489/72/1145;indian_fort_hamlet;hindi;
+Ageo;-1087/69/536;gunji;japanese;
+Jokahra;-1605/66/230;indian_agricole;hindi;
+Jera;807/71/-349;indian_fort;hindi;
+Tylissos;1011/65/-955;ortodox;byzantines;

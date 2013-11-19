@@ -1,0 +1,13 @@
+ZoomLevel=2
+Material=56
+Filtered=true
+Vertical=true
+Bigger=SIZE_1
+Scan=SCAN_2
+Hidden=true
+Position=LEFT_MIDDLE
+ZoomKey=I
+MenuKey=F
+MaterialKey=G
+DirectionKey=H
+Detecting=false

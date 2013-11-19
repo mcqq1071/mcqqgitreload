@@ -1,0 +1,45 @@
+Minimap: Enable
+Render Type: 地表
+Death Point: Disable
+Auto Update Check: Disable
+Map Shape: 方形
+Texture: Rei Minimap
+Map Position: 右上
+Map Scale: 自动
+Map Opacity: Percent100
+Large Map Scale: 自动
+Large Map Opacity: Percent100
+Large Map Label: Disable
+Filtering: Disable
+Show Coordinates: Disable
+Show Menu Key: Disable
+Font Scale: 自动
+Default Zoom: X1 0
+Mask Type: 深度
+Update Frequency: 低
+Threading: Disable
+Thread Priority: 低
+Preloaded Chunks: Disable
+Lighting: 动态
+Lighting Type: 类型1
+Terrain Undulate: Enable
+Terrain Depth: Enable
+Transparency: Enable
+Environment Color: Enable
+Omit Height Calc: Enable
+Hide Snow: Disable
+Show Chunk Grid: Disable
+Show Slime Chunk: Disable
+Entities Radar: Enable
+Entity Player: Disable
+Entity Animal: Disable
+Entity Mob: Enable
+Entity Slime: Enable
+Entity Squid: Disable
+Entity Living: Disable
+Entity Lightning: Disable
+Entity Direction: Enable
+Marker: Enable
+Marker Icon: Disable
+Marker Label: Enable
+Marker Distance: Enable

@@ -1,0 +1,15 @@
+Lost Mayan Corn Farm;143/66/137;lonemayancornfarm;mayan;
+Apomonomeno Boske Probaton;736/63/69;lonesheepfarm;byzantines;
+Meunier solitaire;423/68/681;lonemill;norman;
+Moulin abandonné;89/70/1241;abandonedmill;norman;
+Sadhu ke Peer;-222/64/1613;sadhutree;hindi;
+Adivasi ka Ghar;376/63/1336;adivasifarmquest;hindi;
+Kouku;172/69/2069;lonemine;japanese;
+Tour abandonnée;-748/58/1915;abandonedtower;norman;
+Sunsan Saray;-1146/63/1382;sandblasted;hindi;
+Lost Mayan Home;-871/73/835;lonemayanruin;mayan;
+Sunsan Saray;-1178/68/246;sandblasted;hindi;
+Sunsan Saray;-1914/66/198;sandblasted;hindi;
+Lost Mayan Home;-2363/63/-407;lonemayanruin;mayan;
+Sunsan Saray;678/63/-634;sandblasted;hindi;
+Mono Paratiritio;952/66/-1259;PineTower;byzantines;

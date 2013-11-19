@@ -1,0 +1,2 @@
+Mono Paratiritio;40/75/85;PineTower;byzantines;
+Chota Mandir;634/70/-24;loneshrine;hindi;

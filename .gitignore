@@ -1,0 +1,16 @@
+
+*.log
+
+*.1
+
+*.2
+
+output-server.log.2.lck
+
+output-server.log.3
+
+output-server.log.4
+
+output-server.log.5
+
+output-server.log.6
