@@ -14,3 +14,7 @@ output-server.log.4
 output-server.log.5
 
 output-server.log.6
+
+*.lck
+
+crash-reports/crash-2013-11-20_11.01.30-client.txt
