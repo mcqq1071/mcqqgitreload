@@ -1,9 +1,9 @@
-ZoomLevel=2
+ZoomLevel=1
 Material=1900
 Filtered=true
 Vertical=false
 Bigger=SIZE_1
-Scan=SCAN_1
+Scan=SCAN_2
 Hidden=true
 Position=LEFT_MIDDLE
 ZoomKey=I
