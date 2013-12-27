@@ -1,4 +1,4 @@
-Minimap: Disable
+Minimap: Enable
 Render Type: 地表
 Death Point: Disable
 Auto Update Check: Disable

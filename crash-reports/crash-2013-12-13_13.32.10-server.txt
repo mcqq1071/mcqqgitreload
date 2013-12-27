@@ -1,0 +1,70 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 13-12-13 下午1:32
+Description: Exception in server tick loop
+
+java.lang.ArrayIndexOutOfBoundsException: 0
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:474)
+	at net.minecraft.server.ThreadMinecraftServer.run(SourceFile:583)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.6.4
+	Operating System: Mac OS X (x86_64) version 10.9
+	Java Version: 1.6.0_65, Apple Inc.
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Apple Inc.
+	Memory: 602081128 bytes (574 MB) / 1065025536 bytes (1015 MB) up to 1065025536 bytes (1015 MB)
+	JVM Flags: 1 total; -Xmx1G
+	AABB Pool Size: 2770 (155120 bytes; 0 MB) allocated, 2770 (155120 bytes; 0 MB) used
+	Suspicious classes: FML and Forge are installed
+	IntCache: cache: 0, tcache: 0, allocated: 6, tallocated: 62
+	FML: MCP v8.11 FML v6.4.25.923 Minecraft Forge 9.11.1.923 40 mods loaded, 40 mods active
+	mcp{8.09} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	FML{6.4.25.923} [Forge Mod Loader] (minecraftforge-9.11.1.923.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	Forge{9.11.1.923} [Minecraft Forge] (minecraftforge-9.11.1.923.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	PowerCrystalsCore{1.1.8} [PowerCrystals Core] (PowerCrystalsCore-1.1.8-7.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	CodeChickenCore{0.9.0.6} [CodeChicken Core] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	NotEnoughItems{1.6.1.5} [Not Enough Items] (NotEnoughItems 1.6.1.5.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	DamageIndicatorsMod{2.9.0.6} [Damage Indicators] (1.6.4 DamageIndicators v2.9.0.6.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	IC2{2.0.304-experimental} [IndustrialCraft 2] (industrialcraft-2_2.0.304-experimental.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	CompactWindmills{1.0.2.2} [CompactWindmills(高级风电阵列)] (CompactWindmills.v.1.0.2.2.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	BuildCraft|Core{4.1.0} [BuildCraft] (buildcraft-A-1.6.2-4.1.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	DartCraft{Beta 0.2.12} [DartCraft] (DartCraft Beta 0.2.12.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	inventorytweaks{1.57-dev} [Inventory Tweaks] (InventoryTweaks-MC1.6.4-1.57-dev-b81.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	BuildCraft|Builders{4.1.0} [BC Builders] (buildcraft-A-1.6.2-4.1.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	BuildCraft|Energy{4.1.0} [BC Energy] (buildcraft-A-1.6.2-4.1.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	BuildCraft|Factory{4.1.0} [BC Factory] (buildcraft-A-1.6.2-4.1.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	BuildCraft|Transport{4.1.0} [BC Transport] (buildcraft-A-1.6.2-4.1.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded{1.6.2R2.7.1} [MineFactory Reloaded] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatAppliedEnergistics{1.6.2R2.7.1} [MFR Compat: Applied Energistics] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatAtum{1.6.2R2.7.1} [MFR Compat: Atum] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatBackTools{1.6.2R2.7.1} [MFR Compat: BackTools] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatBiomesOPlenty{1.6.2R2.7.1} [MFR Compat: Biomes O' Plenty] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatChococraft{1.6.2R2.7.1} [MFR Compat: Chococraft] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatExtraBiomes{1.6.2R2.7.1} [MFR Compat: ExtraBiomes] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatForestry{1.6.2R2.7.1} [MFR Compat: Forestry] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatForestryPre{1.6.2R2.7.1} [MFR Compat: Forestry (part 2)] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatIC2{1.6.2R2.7.1} [MFR Compat: IC2] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatMagicalCrops{1.6.2R2.7.1} [MFR Compat: Magical Crops] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatMystcraft{1.6.2R2.7.1} [MFR Compat: Mystcraft] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatPams{1.6.2R2.7.1} [MFR Compat: Pam's Mods] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatRailcraft{1.6.2R2.7.1} [MFR Compat: Railcraft] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatRP2{1.6.2R2.7.1} [MFR Compat: RP2] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatSufficientBiomes{1.6.2R2.7.1} [MFR Compat: Sufficient Biomes] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatThaumcraft{1.6.2R2.7.1} [MFR Compat: Thaumcraft] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatTwilightForest{1.6.2R2.7.1} [MFR Compat: TwilightForest] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatVanilla{1.6.2R2.7.1} [MFR Compat: Vanilla] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MineFactoryReloaded|CompatXyCraft{1.6.2R2.7.1} [MFR Compat: XyCraft] (MineFactoryReloaded-2.7.1-36.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	mod_ReiMinimap{v3.4_01 [1.6.2]} [mod_ReiMinimap] ([1.6.4]ReiMinimap_v3.4_01.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	BuildCraft|Silicon{4.1.0} [BC Silicon] (buildcraft-A-1.6.2-4.1.0.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	CompactSolars{4.4.14.186} [Compact Solar Arrays] (compactsolars-universal-1.6.4-4.4.14.186cnbyAL.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	MyHome{1.3.0} [MyHome] (myHome_1.3.0.zip) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available->Available->Available->Available->Available->Available
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
